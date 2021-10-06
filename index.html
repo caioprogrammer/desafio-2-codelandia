@@ -36,40 +36,78 @@
         <div class="main__products">
             <div class="main__products-card">
                 <img src="img/1.png" alt="Tênis 1">
+                <div class="main__products-content">
+                    <p class="main__products-title">Air jordan 1</p>
+                </div>
             </div>
 
             <div class="main__products-card">
-                <img src="img/2.png" alt="Tênis 1">
+                <img src="img/2.png" alt="Tênis 2">
+                <div class="main__products-content">
+                    <p class="main__products-title">Air jordan 2</p>
+                </div>
             </div>
 
             <div class="main__products-card">
-                <img src="img/3.png" alt="Tênis 1">
+                <img src="img/3.png" alt="Tênis 3">
+                <div class="main__products-content">
+                    <p class="main__products-title">Air jordan 3</p>
+                </div>
             </div>
 
             <div class="main__products-card">
-                <img src="img/4.png" alt="Tênis 1">
+                <img src="img/4.png" alt="Tênis 4">
+                <div class="main__products-content">
+                    <p class="main__products-title">Air jordan 4</p>
+                </div>
             </div>
 
             <div class="main__products-card">
-                <img src="img/5.png" alt="Tênis 1">
+                <img src="img/5.png" alt="Tênis 5">
+                <div class="main__products-content">
+                    <p class="main__products-title">Air jordan 5</p>
+                </div>
             </div>
 
             <div class="main__products-card">
-                <img src="img/6.png" alt="Tênis 1">
+                <img src="img/6.png" alt="Tênis 6">
+                <div class="main__products-content">
+                    <p class="main__products-title">Air jordan 6</p>
+                </div>
             </div>
 
             <div class="main__products-card">
-                <img src="img/7.png" alt="Tênis 1">
+                <img src="img/7.png" alt="Tênis 7">
+                <div class="main__products-content">
+                    <p class="main__products-title">Air jordan 7</p>
+                </div>
             </div>
 
             <div class="main__products-card">
-                <img src="img/8.png" alt="Tênis 1">
+                <img src="img/8.png" alt="Tênis 8">
+                <div class="main__products-content">
+                    <p class="main__products-title">Air jordan 8</p>
+                </div>
             </div>
         </div>
     </main>
 
     <footer class="footer">
-        <p>Todos os direitos reservados</p>
+        <p id="typed-strings">Todos os direitos reservados</p>
     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: false
+        });
+
+        ScrollReveal().reveal('.hero__bg', { delay: 200 });
+        ScrollReveal().reveal('.hero__title', { delay: 400 });
+        ScrollReveal().reveal('.hero__subtitle', { delay: 500 });
+    </script>
 </body>
 </html>
