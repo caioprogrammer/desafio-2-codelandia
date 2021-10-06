@@ -138,6 +138,7 @@ body {
         // flex-direction: column;
         position: relative;
         cursor: pointer;
+        place-content: center;
 
         &:hover .main__products-content {
             left:0;
